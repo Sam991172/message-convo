@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #cceeff, #ddefef);
+  overflow: hidden;
+}
+#app {
+  padding: 40px;
+  text-align: center;
+}
+.message {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  display: inline-block;
+  text-align: left;
+  position: relative;
+}
+.buttons {
+  margin-top: 20px;
+}
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+.primary {
+  background-color: #4CAF50;
+  color: white;
+}
+.secondary {
+  background-color: #f44336;
+  color: white;
+}
+.emoji {
+  position: fixed;
+  font-size: 24px;
+  animation: floatDownUp 6s infinite linear;
+}
+@keyframes floatDownUp {
+  0% { transform: translateY(-10vh); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateY(110vh); opacity: 0; }
+}
