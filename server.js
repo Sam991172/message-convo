@@ -18,8 +18,8 @@ app.post('/submit', async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'your_email@gmail.com',       // <- your Gmail
-      pass: 'your_app_password_here'      // <- Gmail App Password (NOT normal password)
+      user: 'samsonisaac1172@gmail.com',       // <- your Gmail
+      pass: 'glvv yxlr fyxt ruai'      // <- Gmail App Password (NOT normal password)
     }
   });
 
